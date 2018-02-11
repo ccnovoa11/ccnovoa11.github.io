@@ -1,0 +1,41 @@
+
+body,
+html {
+	margin: 0;
+	height: 100%;}
+
+	header.encabezado {
+		position: relative;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		color: white;
+		background-image: url("./img/encabezado-fondo.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+
+	.perfil_photo{
+		margin: 60px;
+		border-radius: 50%;
+		width: 25%;
+		height: 25%;
+	}
+
+	.Welcome {
+		color: white;
+		padding-bottom: 70px;
+		font-size: 70px;
+		font-size: 4vw;
+	}
+
+	.col-sm-4 {
+		text-align: center;
+	}
+
+	.hobbie{
+		text-align: center;
+
+	}
