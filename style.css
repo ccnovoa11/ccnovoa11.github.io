@@ -1,55 +1,104 @@
 
-body,
-html {
+body, html {
 	margin: 0;
-	height: auto;
-	width: auto;
+	height: 100%;
+	width: 100%;
 	background-image: url("./img/encabezado-fondo.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
-
-
-header{
-	position: relative;
-	background-color: transparent;
-	background-size: 100%;
-	background-position: center;
-	min-width: 100%;
-	min-height: 100%;
-	text-align: center;
-	color-: white;
-	
+.navbar-brand {
+	transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+	color: rgba(0,0,0,0.9);
+	text-decoration: none;
 }
 
-.perfil_photo{
-	margin: 60px;
+.container-dark {
+	width: 100%;
+}
+
+.navbar-brand > h4 {
+	margin-top: 8px;
+}
+
+.container-fluid {
+	padding: 80px 20px;
+}
+
+.container {
+	padding-top: 70px;
+}
+
+.footer {
+	padding: 80px 20px
+}
+
+img {
+	max-width: 50%!important;
+	width: 40%;
+}
+
+p > a {
+	color: rgba(0,0,0,0.9);
+	text-decoration: none;
+}
+
+
+div.encabezado {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;	
+}
+
+.perfil_photo {
+	margin: 80px;
 	border-radius: 50%;
 	width: 25%;
 	height: 25%;
 }
 
-.Welcome {
+.welcome {
 	color: white;
-	padding-bottom: 70px;
+	padding-bottom: 40px;
 	font-size: 70px;
 	font-size: 4vw;
 }
 
-#hobbie{
-	text-align: center;
-	background-color: rgba(255, 255, 255, 0.9);
-
+hr {
+	border: none;
+	background-color: white;
+	width: 100%;
+	height: 10px;
 }
 
-.title {
-	text-align: center;
-	color: white;
+div.seccion {
+	height: 100%;
+	width: 100%;
 }
 
-.container {
+h2.title {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	height: 20%;
+}
+
+div.container-fluid {
+	height: 80%;
+	width: 100%;
 	background-color: rgba(255, 255, 255, 0.9);
+}
+
+div.hobbie {
+	background-image: url(./img/prueba.jpg);
+}
+
+footer {
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
