@@ -2,40 +2,54 @@
 body,
 html {
 	margin: 0;
-	height: 100%;}
+	height: auto;
+	width: auto;
+	background-image: url("./img/encabezado-fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
 
-	header.encabezado {
-		position: relative;
-		width: 100%;
-		height: auto;
-		text-align: center;
-		color: white;
-		background-image: url("./img/encabezado-fondo.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
 
-	}
+header{
+	position: relative;
+	background-color: transparent;
+	background-size: 100%;
+	background-position: center;
+	min-width: 100%;
+	min-height: 100%;
+	text-align: center;
+	color-: white;
+	
+}
 
-	.perfil_photo{
-		margin: 60px;
-		border-radius: 50%;
-		width: 25%;
-		height: 25%;
-	}
+.perfil_photo{
+	margin: 60px;
+	border-radius: 50%;
+	width: 25%;
+	height: 25%;
+}
 
-	.Welcome {
-		color: white;
-		padding-bottom: 70px;
-		font-size: 70px;
-		font-size: 4vw;
-	}
+.Welcome {
+	color: white;
+	padding-bottom: 70px;
+	font-size: 70px;
+	font-size: 4vw;
+}
 
-	.col-sm-4 {
-		text-align: center;
-	}
+#hobbie{
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.9);
 
-	.hobbie{
-		text-align: center;
+}
 
-	}
+.title {
+	text-align: center;
+	color: white;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
