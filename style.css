@@ -72,6 +72,7 @@ h1 {
 	padding-bottom: 40px;
 	font-size: 75px;
 	font-size: 4vw;
+	font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -242,6 +243,7 @@ h2.title {
 	color: rgb(255, 255, 255);
 	background-color: transparent;
 	height: 20%;
+	font-family: 'Pacifico', cursive;
 }
 
 .hobbie {
@@ -302,6 +304,7 @@ div.footer {
 p {
 	color: white;
 	font-size: 3.5vh;
+	font-family: 'Arvo', serif;
 }
 
 p::selection {
