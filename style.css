@@ -53,7 +53,18 @@ div.encabezado {
 
 
 div.photo, div.texto_encabezado {
-	top: 10vh;
+	top: 25vh;
+}
+
+@media all and (max-width: 575px) {
+	div.photo, div.texto_encabezado {
+		top: 10vh;
+	}
+	
+}
+
+h4 {
+	font-family: 'Pacifico', cursive;
 }
 
 .perfil_photo {
@@ -194,7 +205,7 @@ h1 {
 		left: 60px;
 		border: medium solid white;
 		border-width: 10px 10px 10px 0;
-		border-color: transparent white transparent transparent;
+		border-color: transparent rgb(128,128,128) transparent transparent;
 	}
 
 	/* Make sure all circles are at the same spot */
