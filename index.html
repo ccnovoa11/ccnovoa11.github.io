@@ -27,28 +27,32 @@
 		<div class="collapse navbar-collapse" id="navbarText">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="#informacion">Información</a>
+					<a class="nav-link" href="#Informacion">Información</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#habilidades">Habilidades	</a>
+					<a class="nav-link" href="#Habilidades">Habilidades	</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#hobbies">Hobbies</a>
+					<a class="nav-link" href="#Hobbies">Hobbies</a>
 				</li>
 			</ul>
 			
 		</div>
 	</nav>
 
-	<div class="encabezado" id="home">
-		<div class="contenido_encabezado">
-			<div class="photo">
+	<div class="encabezado">
+		<div class="row contenido_encabezado" id="home">
+			<div class="col-sm-6 photo">
 				<img class= "perfil_photo" src="./img/Perfil.jpg" alt="Foto perfil">
 			</div>
-			<div class="texto_encabezado">
+			<div class="col-sm-6 texto_encabezado">
 				<h1 class="welcome">
 					Mi página personal
 				</h1>
+				<p1 class="info_personal">Soy Cristian Camilo Novoa Avellaneda, nací en Bogotá pero actualmente resido en Mosquera. <br/><br/>
+
+					Desde el primer semestre del año 2015 soy estudiante de la Universidad de Los Andes, cursando la carrera de ingeniería de sistemas y computación.
+				</p1>
 			</div>			
 		</div>
 	</div>
@@ -56,7 +60,7 @@
 	<!--Secciones-->
 	<hr class="salto">
 
-	<div  id="informacion">
+	<div id="Informacion">
 		<h2 class="title">
 			Información personal
 		</h2>
@@ -93,7 +97,7 @@
 		</div>
 	</div>
 
-	<div id="habilidades">
+	<div id="Habilidades">
 		<h2 class="title">
 			Habilidades
 		</h2>
@@ -109,7 +113,7 @@
 		</div>
 	</div>
 
-	<div id="hobbies">
+	<div id="Hobbies">
 		<h2 class="title">
 			Hobbies
 		</h2>
@@ -120,22 +124,18 @@
 			<div class="row">
 				<div class="col-sm-4 hobbie" style="background-image: url(./img/videojuegos.jpg); background-size: cover;">
 					<!--img class="imgHobbie" src="./img/videojuegos.jpg" alt="Imagen videojuegos"/-->
-					<div>
-						<p class="descrip">Como a muchos, me gustan mucho los videojuegos, especialmente los de la gran N
-						</p>
-					</div>
+					
+					<p class="descrip">Como a muchos, me gustan mucho los videojuegos, especialmente los de la gran N
+					</p>
+					
 				</div>
 				<div class="col-sm-4 hobbie" style="background-image: url(./img/prueba.jpg); background-size: cover;">
-					<div>
-						<p class="descrip">Peppa es una cerda
-						</p>
-					</div>
+					<p class="descrip">Peppa es una cerda
+					</p>
 				</div>
-				<div class="col-sm-4 hobbie" style="background-image: url(./img/One-Piece.jpg); background-size: cover;">
-					<div>
-						<p class="descrip">JEJEJEJEJEJE
-						</p>
-					</div>
+				<div class="col-sm-4 hobbie" style="background-image: url(./img/One-Piece.jpg); background-size: cover; background-position: center;">
+					<p class="descrip">JEJEJEJEJEJE
+					</p>
 				</div>
 
 			</div>
@@ -143,25 +143,24 @@
 	</div>
 
 	
-	<footer>
-		<ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-			<li>
-				<a class="nav-link p-2" href="https://github.com/ccnovoa11" target="_blank" rel="noopener" aria-label="GitHub">
+	<div class="footer" align="bottom">
+		<div class="row">
+			<div class="col-sm-7">
+				<p>Designed by Cristian Novoa</p>
+			</div>
+			<div class="col-sm-5" align="right">
+				<a href="https://github.com/ccnovoa11" target="_blank" aria-label="GitHub">
 					<i class="fa fa-github fa-lg"></i> 
 				</a>
-			</li>
-			<li>
-				<a class="nav-link p-2" href="https://www.twitter.com/novoa_14" target="_blank" rel="noopener" aria-label="Twitter">
+				<a href="https://www.twitter.com/novoa_14" target="_blank" aria-label="Twitter">
 					<i class="fa fa-twitter fa-lg"></i>
 				</a>
-			</li>
-			<li>
-				<a class="nav-link p-2" href="mailto:cc.novoa11@uniandes.edu.co" rel="noopener" aria-label="Slack">
+				<a href="mailto:cc.novoa11@uniandes.edu.co" aria-label="Slack">
 					<i class="fa fa-envelope fa-lg" aria-hidden="true"></i>              
-				</a>
-			</li>
-		</ul>
-	</footer>
+				</a>					
+			</div>				
+		</div>
+	</div>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
