@@ -14,4 +14,8 @@ Cristian Camilo Novoa Avellaneda.
 ## Tecnologías Usadas
 Para este proyecto se utilizó HTML, CSS y JS.
 
+## Aclaraciones
+- La gran N es **Nintendo.**
+- La imagen de música es un bajo pues es mi instrumento favorito.
+
 **Licencia proporcionada por MIT: https://github.com/ccnovoa11/ccnovoa11.github.io/blob/master/LICENSE**
