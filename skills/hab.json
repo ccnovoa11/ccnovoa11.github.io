@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Java",
+    "y": 80
+  },
+  {
+    "label": "SQL",
+    "y": 50
+  },
+  {
+    "label": "CSS",
+    "y": 60
+  },
+  {
+    "label": "HTML",
+    "y": 80
+  },
+  {
+    "label": "JS",
+    "y": 25
+  }
+]
