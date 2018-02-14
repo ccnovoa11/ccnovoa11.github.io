@@ -249,6 +249,8 @@ div.final{
 	
 }
 
+/*CSS títulos de cada sección*/
+
 h2.title {
 	text-align: center;
 	color: rgb(255, 255, 255);
@@ -256,6 +258,8 @@ h2.title {
 	height: 20%;
 	font-family: 'Indie Flower', cursive;
 }
+
+/* espacio que ocupa el contenedor de hobbie*/
 
 .hobbie {
 	/*position: relative;*/
