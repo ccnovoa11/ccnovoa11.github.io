@@ -53,7 +53,7 @@ div.encabezado {
 
 
 div.photo, div.texto_encabezado {
-	top: 25vh;
+	top: 18vh;
 }
 
 .perfil_photo {
@@ -67,7 +67,7 @@ img {
 	max-width: 50%;
 	width: 40%;
 }
-.welcome {
+h1 {
 	color: white;
 	padding-bottom: 40px;
 	font-size: 75px;
@@ -145,7 +145,7 @@ img {
 	right: 30px;
 	border: medium solid white;
 	border-width: 10px 0 10px 10px;
-	border-color: transparent transparent transparent white;
+	border-color: transparent transparent transparent rgb(128,128,128);
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -159,7 +159,7 @@ img {
 	left: 30px;
 	border: medium solid black;
 	border-width: 10px 10px 10px 0;
-	border-color: transparent white transparent transparent;
+	border-color: transparent rgb(128,128,128) transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -170,7 +170,7 @@ img {
 /* Contenedor */
 .content {
 	padding: 20px 30px;
-	background-color: white;
+	background-color: rgb(128,128,128);
 	position: relative;
 	border-radius: 6px;
 }
@@ -257,15 +257,17 @@ h2.title {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	height: 30vh;
-	background: rgba(29, 29, 29, 0.8);
-	background-size: 	cover;	
+	background: rgba(29, 29, 29, 0.9);
+	background-size: cover;	
 	color: #fff;
-	visibility: hidden;
+	visibility: visible;
 	text-align: center;
 	opacity: 0;
+	transition: opacity .5s, visibility .5s;
+}
 
-	transition: opacity .2s, visibility .2s;
+.hb {
+	transform: 	translateY(	10vh);
 }
 
 .hobbie:hover .descrip {
@@ -286,15 +288,34 @@ div.footer {
 @media all and (max-width: 575px) {
 
 	div.col-sm-7{
-		width: 43vh;
+		width: 75%;
 		padding: 0;	
 	}
 
 	div.col-sm-5{
-		width: 17vh;
+		width: 25%;
 		padding: 0;	
 	}
 	
 }
 
+p {
+	color: white;
+	font-size: 3.5vh;
 }
+
+p::selection {
+	background: rgb(201, 201, 201);
+}
+
+p::-moz-selection {
+	background: rgb(201, 201, 201);
+}
+
+::selection {
+	background: rgb(201, 201, 201);
+}
+::-moz-selection {
+	background: rgb(201, 201, 201);
+}
+
