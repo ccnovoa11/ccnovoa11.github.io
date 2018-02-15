@@ -321,7 +321,17 @@ div.footer {
 p {
 	color: white;
 	font-size: 3vh;
+
 	font-family: 'Arvo', serif;
+}
+
+@media all and (max-width: 575px) {
+
+	p {
+		color: white;
+		font-size: 5vw;
+		font-family: 'Arvo', serif;
+	}
 }
 
 p::selection {
