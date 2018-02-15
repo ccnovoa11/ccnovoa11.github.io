@@ -23,7 +23,8 @@ window.onload = function () {
 			title: "Porcentaje",
 			suffix: "%",
 			includeZero: false,
-			maximum:100
+			maximum:100,
+			minimum: 0
 		},
 		axisX: {
 			title: "Habilidad"
